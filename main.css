@@ -1,0 +1,12 @@
+.container {
+    /* max-width: 600px; */
+    margin: 0 auto;
+    background-color: tomato;
+    display: flex;
+    flex-direction: column;
+}
+
+.container_item {
+    /* flex-basis: 124px; */
+    height: 60px;
+}
