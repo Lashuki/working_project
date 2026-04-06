@@ -11,6 +11,13 @@ const languages = ["JavaScript", "Node.js", "React"];
 
 const iterator = languages.entries();
 
+
+
+document.addEventListener('click', (event) => {
+    console.log(event); 
+});
+console.log("ssssss")
+
 console.log(iterator.next().value); // [0, "JavaScript"]
 console.log(iterator.next().value); // [1, "Node.js"]
 console.log(iterator.next().value); // [2, "React"]
