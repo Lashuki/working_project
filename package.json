@@ -1,0 +1,23 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/Lashuki/working_project#readme",
+  "bugs": {
+    "url": "https://github.com/Lashuki/working_project/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lashuki/working_project.git"
+  },
+  "license": "ISC",
+  "author": "lasha",
+  "type": "module",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "is-odd": "^3.0.1"
+  }
+}
