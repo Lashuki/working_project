@@ -42,3 +42,16 @@ myForEach(arr, (item) => {
     console.log(item)
 })
 
+console.log("----------------")
+
+function myMap(array, f) {
+    const newArr = [];
+    for (let i = 0; i < array.length; i++) {
+        newArr.push(f(arr[i]))
+    }
+    console.log(newArr)
+    return newArr;
+    
+}
+
+myMap(arr, (item) => item * 2)
