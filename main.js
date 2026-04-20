@@ -18,12 +18,27 @@ console.log("--------------------");
 
 
 function helloXTimes(fun, times) {
-    for(let i = 0; i <= times; i++) {
+    for (let i = 0; i <= times; i++) {
         fun(i)
     }
 }
 
-helloXTimes((text)=> {
+helloXTimes((text) => {
     console.log(`hi ${text}`)
 }, 6)
+
+
+console.log("------------------------")
+
+const arr = [9, 8, 7, 6];
+
+function myForEach(array, f) {
+    for (let i = 0; i < array.length; i++) {
+        f(array[i])
+    }
+}
+
+myForEach(arr, (item) => {
+    console.log(item)
+})
 
